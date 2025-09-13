@@ -1,0 +1,74 @@
+<!-- filepath: c:\Users\frank\FSD Portfolio\first-website\index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is my WebSite Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner-img-container">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80" alt="Web Design Banner" class="banner-img">
+        <h1 class="typing banner-title">Welcome!</h1>
+    </div>
+    <button id="helloBtn">Click Me</button>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Franklyn's Profile" class="profile-img">
+        <p>
+            Hi! I'm Franklyn, a passionate webpage designer dedicated to creating beautiful and user-friendly websites.
+            I specialize in modern, responsive designs that help small businesses and individuals stand out online.
+            Let's work together to bring your vision to life!
+        </p>
+        <ul>
+            <li>Responsive Web Design</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Custom Website Solutions</li>
+        </ul>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-card">
+                <img src="uncle-pepes-food-truck.png" alt="Uncle Pepe's Food Truck Website Screenshot" class="project-image">
+                <h3>Uncle Pepe's Food Truck</h3>
+                <p>
+                    A vibrant, modern website for a Mexican food truck. Features menu, catering, schedule, Google Maps, testimonials, and more. Built with React + Vite.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/Sorak67/uncle-pepes-site" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="personal-blog.png" alt="Personal Blog Screenshot" class="project-image">
+                <h3>Personal Blog</h3>
+                <p>A clean and simple blog platform designed for easy reading and writing.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="portfolio-card">
+                <img src="pixel-playground-screenshot.png" alt="Pixel Playground Gallery Screenshot" class="project-image">
+                <h3>Portfolio Gallery</h3>
+                <p>An interactive gallery to showcase creative work and photography.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            Interested in working together or have questions? Reach out!
+        </p>
+        <ul>
+            <li>Email: <a href="mailto:lopezfranklyn.websolutions@gmail.com">lopezfranklyn.websolutions@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/Sorak67/Sorak67/blob/main/README.md" target="_blank">github.com/Sorak67</a></li>
+        </ul>
+    </section>
+<script>
+    const btn = document.getElementById('helloBtn');
+    btn.addEventListener('click', function() {
+        alert('Hello! Welcome to my portfolio website.');
+    });
+</script>
+</body>
+</html>
